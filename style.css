@@ -1,0 +1,72 @@
+body{
+    color: #383737;
+}
+
+nav{
+    text-align: right;
+    margin: 15px;
+}
+
+nav a{
+    margin-right: 1em;
+}
+
+header img {
+    width: 100%;
+}
+
+.compre{
+    text-align: center;
+    margin: 2.5em;
+}
+
+.compre li{
+    display: inline-block; 
+    margin-right: 1em; 
+}
+
+.compre h2{
+    top: 7px;
+    position: relative;
+}
+
+.compre button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hr-center{
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+.lista li{
+    display: inline-block;
+    margin: 1em;
+}
+
+.lista li img{
+    border-radius: 5px;
+}
+
+.lista p{
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.lista hr{
+    width: 118px;
+    color: red;
+    height: 3px;
+    position: relative;
+    bottom: 14px;
+}
+
+#orange{
+    height: 250px;
+    background-color: orange;
+}
+
