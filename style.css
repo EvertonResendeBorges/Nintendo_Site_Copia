@@ -11,26 +11,31 @@ nav a{
     margin-right: 1em;
 }
 
+/* Quando o mouse está em cima */
+nav a:hover{
+    color: red;
+}
+
 header img {
     width: 100%;
 }
 
-.compre{
+.topicos{
     text-align: center;
     margin: 2.5em;
 }
 
-.compre li{
+.topicos li{
     display: inline-block; 
     margin-right: 1em; 
 }
 
-.compre h2{
+.topicos p{
     top: 7px;
     position: relative;
 }
 
-.compre button{
+.topicos button{
     background-color: red;
     color: white;
     border: none;
@@ -41,6 +46,7 @@ header img {
 .hr-center{
     width: 50%;
     margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 .lista li{
@@ -71,22 +77,92 @@ header img {
 }
 
 .orange img{
-    margin-top: 37px;
+    top: 37px;
+    position: relative;
+    left: 14px;
 }
 
 .orange p{
-    font-size: 28px;
+    font-size: 35px;
     color: #fff;
-    font-weight: bold;
-    margin-left: 462px;
-    margin-top: -81px;
+    font-weight: 500;
+    position: absolute;
+    left: 768px;
+    bottom: -437px;
 }
+  
 
 .orange button{
     border:solid 1px red;
     border-radius: 5px;
     color: #FF851B;
     background-color: #fff;
-    margin-left: 1060px;
-    margin-top: -90px;
+    position: relative;
+    left: 726px;
+    bottom: -29px;
 }
+    
+
+.red1{
+    height: 235px;
+    background-color: red;
+}
+
+.red1 p{
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    right: 593px;
+    top: 1701px;
+    font-size: 19px;
+}
+
+
+.red1 #nso{
+    position: absolute;
+    top: 1551px;
+    left: 774px;
+} 
+
+.red1 button{
+    border-radius: 5px;
+    position: absolute;
+    top: 1612px;
+    left: 1425px;
+    color: red;
+    background-color: #fff;
+}
+
+.p1{
+    font-size: 2.3em;
+    font-weight: bold; 
+}
+
+.p2{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.blue_red img{
+    height: auto;
+    max-width: 100%;
+    min-width: 0;
+    outline: 0;
+}
+
+footer{
+    background-color: #969595;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+footer  a{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.texto{
+    padding: 71px;
+}
+
