@@ -1,0 +1,91 @@
+@media screen and (min-width: 320px){
+    .orange{
+        height: 322px;
+        width: 332px;
+    }
+    .orange img {
+        top: 15px;
+        left: 14px;
+        width: 267px;
+    }
+
+    .orange p {
+        font-size: 25px;
+        margin-left: 25px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .orange button {
+        left: 9px;
+        bottom: -12px;
+        padding-right: 150px;
+    }
+
+    .multi img{
+        width: 293px;
+    }
+
+    .red1{
+        height: 431px;
+        width: 332px;
+    }
+
+    .red1 #nso {
+        bottom: -31px;
+        left: 1px;
+        width: 290px;
+        height: 73px;
+    }
+
+    .red1 p {
+        margin-left: -3px;
+        margin-top: 40px;
+        font-size: 19px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .red1 button{
+        left: 9px;
+        bottom: -12px;
+        padding-right: 150px;
+    }
+
+    footer{
+        width: 332px;
+    }
+
+}
+
+@media screen and (min-width: 375px){
+    .orange{
+        width: auto;
+    }
+
+    .red1{
+        width: auto;
+    }
+
+    footer{
+        width: auto;
+    }
+}
+
+
+@media screen and (min-width: 1440px){
+    .lista li img {
+        width: 193px;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .lista li img {
+        width: 380px;
+    }
+
+    .lista p{
+        font-size: 2em;
+    }
+
+}

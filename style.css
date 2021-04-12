@@ -61,6 +61,7 @@ header img {
 .lista p{
     font-size: 1.5em;
     margin-top: 0.5em;
+    font-weight: 500;
 }
 
 .lista hr{
@@ -86,11 +87,10 @@ header img {
     font-size: 35px;
     color: #fff;
     font-weight: 500;
-    position: absolute;
-    left: 768px;
-    bottom: -437px;
+    margin-left: 448px;
+    margin-top: -43px;
 }
-  
+
 
 .orange button{
     border:solid 1px red;
@@ -98,8 +98,8 @@ header img {
     color: #FF851B;
     background-color: #fff;
     position: relative;
-    left: 726px;
-    bottom: -29px;
+    left: 1116px;
+    bottom: 63px
 }
     
 
@@ -111,24 +111,23 @@ header img {
 .red1 p{
     color: #fff;
     font-weight: bold;
-    position: absolute;
-    right: 593px;
-    top: 1701px;
+    margin-left: 484px;
+    margin-top: -204px;
     font-size: 19px;
 }
 
 
 .red1 #nso{
-    position: absolute;
-    top: 1551px;
-    left: 774px;
-} 
+    position: relative;
+    bottom: 206px;
+    left: 472px;
+}
 
 .red1 button{
     border-radius: 5px;
-    position: absolute;
-    top: 1612px;
-    left: 1425px;
+    position: relative;
+    bottom: 134px;
+    left: 1120px;
     color: red;
     background-color: #fff;
 }
@@ -152,7 +151,7 @@ header img {
 
 footer{
     background-color: #969595;
-    height: 250px;
+    height: auto;
     width: 100%;
     text-align: center;
 }
