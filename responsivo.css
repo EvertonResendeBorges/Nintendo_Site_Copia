@@ -1,4 +1,9 @@
 @media screen and (min-width: 320px){
+
+    header img {
+        height: 194px;
+    }
+
     .orange{
         height: 322px;
         width: 332px;
@@ -72,6 +77,12 @@
     }
 }
 
+@media screen and (min-width: 768px){
+    header img {
+        height: 292px;
+    }
+}
+
 
 @media screen and (min-width: 1440px){
     .lista li img {
@@ -80,6 +91,11 @@
 }
 
 @media screen and (min-width: 2560px){
+
+    header img {
+        height: 622px;
+    }
+
     .lista li img {
         width: 380px;
     }
