@@ -83,8 +83,17 @@
     }
 }
 
+@media screen and (min-width: 1024px){
+    header img {
+        height: 358px;
+    }
+}
+
 
 @media screen and (min-width: 1440px){
+    header img {
+        height: 440px;
+    }
     .lista li img {
         width: 193px;
     }
